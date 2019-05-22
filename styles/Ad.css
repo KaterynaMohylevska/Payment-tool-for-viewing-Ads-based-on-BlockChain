@@ -1,0 +1,9 @@
+.ads{
+    width:30%;
+}
+.ads__video{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+}

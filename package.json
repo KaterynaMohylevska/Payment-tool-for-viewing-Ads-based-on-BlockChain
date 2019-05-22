@@ -1,0 +1,30 @@
+{
+  "name": "Payment-tool-for-viewing-Ads-based-on-BlockChain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaterynaMohylevska/Payment-tool-for-viewing-Ads-based-on-BlockChain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaterynaMohylevska/Payment-tool-for-viewing-Ads-based-on-BlockChain/issues"
+  },
+  "homepage": "https://github.com/KaterynaMohylevska/Payment-tool-for-viewing-Ads-based-on-BlockChain#readme",
+  "devDependencies": {
+    "babel-loader": "^8.0.6",
+    "webpack": "^5.0.0-alpha.13",
+    "webpack-cli": "^3.3.2"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}

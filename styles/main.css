@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+body{
+  margin: 0;
+}
+
+#root{
+  font-family: 'Source Code Pro', sans-serif;
+  color: #33022f;
+}
+.site-header{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f6dceb;
+  background-image: linear-gradient(to right, 	#f6dceb , #daecff);
+}
+.site-header__logo-name{
+  display: flex;
+  width: 15%;
+  justify-content: space-around;
+  align-items: center;
+}
+.site-header__logo{
+  width: 70px;
+  height: 70px;
+}
+
+.site-header__nav{
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+}
+.products{
+  width:60%;
+}
+.products__item{
+  width: 150px;
+  height: 150px;
+  margin: 10px 30px;
+}
+
+.products__description{
+  padding: 0 20px;
+}
+
+.main-section{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
